@@ -24,6 +24,13 @@ public class SimpleFragment extends Fragment {
     }
 
 
+    public static SimpleFragment getNewInstance(){
+
+
+        return new SimpleFragment();
+    }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
