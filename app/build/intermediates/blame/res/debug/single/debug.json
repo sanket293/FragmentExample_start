@@ -1052,6 +1052,10 @@
         "source": "/Users/sanketvagadiya/.gradle/caches/transforms-2/files-2.1/557ae949ee317c309a4622014fd2ee5d/appcompat-v7-26.0.1/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/sanketvagadiya/AndroidStudioProjects/android-advanced-starter-apps/FragmentExample_start/app/build/intermediates/res/merged/debug/layout_fragment_ratingbar.xml.flat",
+        "source": "/Users/sanketvagadiya/AndroidStudioProjects/android-advanced-starter-apps/FragmentExample_start/app/src/main/res/layout/fragment_ratingbar.xml"
+    },
+    {
         "merged": "/Users/sanketvagadiya/AndroidStudioProjects/android-advanced-starter-apps/FragmentExample_start/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat",
         "source": "/Users/sanketvagadiya/.gradle/caches/transforms-2/files-2.1/557ae949ee317c309a4622014fd2ee5d/appcompat-v7-26.0.1/res/color-v23/abc_tint_spinner.xml"
     },

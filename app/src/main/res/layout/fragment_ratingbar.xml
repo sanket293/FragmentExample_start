@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/my_fragment_color"
     tools:context=".RatingbarFragment">
 
 
     <TextView
+        android:id="@+id/tvQuestionSong"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/question_song"></TextView>
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/question_song"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"></TextView>
 
     <RatingBar
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"></RatingBar>
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></RatingBar>
 
-</FrameLayout>
+</LinearLayout>
